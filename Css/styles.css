@@ -491,7 +491,7 @@ a{
       font-size: 2.4rem;
   }
 
-    quote__company {
+    .quote__company {
       font-size: 1.6rem;
     }
 }
@@ -853,5 +853,82 @@ clip-path: polygon(0% 0%, 100% 0%,100% 100%, 0% 90%);
   .block-showcase__image >img{
     width: auto;
     max-width: 700px;
+  }
+}
+
+/** Footer**/
+
+.footer{
+  background-color: #232323;
+}
+
+.footer__heading{
+  color:white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+
+.footer__section {
+  padding: 2rem;
+  border-bottom: 1px solid #393939;
+}
+
+.footer__brand{
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.footer__copyright{
+  font-size: 2.1rem;
+  color:#fff;
+  opacity: .3;
+}
+
+.footer a{
+  color:#777;
+  transition:color .3s;
+}
+
+.footer a:hover{
+color:white;
+}
+
+.footer .list{
+  margin:0;
+}
+
+
+
+
+@media screen and (min-width:768px) {
+  .footer__sections{
+    grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
+  }
+
+  .footer .collapsible__chevron{
+    display: none;
+  }
+
+  .footer .collapsible__content{
+    opacity:1;
+    max-height: 100%;
+  }
+
+  .footer__brand{
+    order:-1;
+    margin-top: 1rem;
+  }
+
+  .footer__copyright{
+    font-size: 1.5rem;
+  }
+
+  .footer__section{
+    border:0;
+  }
+
+  .footer__heading{
+    font-size: 1.6rem;
   }
 }
