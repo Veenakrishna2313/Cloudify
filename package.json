@@ -1,0 +1,23 @@
+{
+  "name": "Cloudify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Veenakrishna2313/Cloudify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Veenakrishna2313/Cloudify/issues"
+  },
+  "homepage": "https://github.com/Veenakrishna2313/Cloudify#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
